@@ -16,4 +16,4 @@ animation.forEach(el => {
     });
 });
 
-document.querySelectorAll('a').forEach(el => el.target = '_blank');
+if (document.location.pathname !== '/herzen-portfolio/') document.querySelectorAll('a').forEach(el => el.target = '_blank');
