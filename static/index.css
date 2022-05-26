@@ -96,6 +96,10 @@ polygon {
 .toggle-wrapper {
     width: 60%;
 }
+.pic {
+    max-width: 600px;
+    height: 400px;
+}
 
 ::-webkit-scrollbar {
     width: 15px;
