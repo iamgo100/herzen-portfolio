@@ -15,3 +15,5 @@ animation.forEach(el => {
         inner.classList.toggle('showed');
     });
 });
+
+document.querySelectorAll('a').forEach(el => el.target = '_blank');
