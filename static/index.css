@@ -96,6 +96,11 @@ polygon {
 .toggle-wrapper {
     width: 60%;
 }
+.centered-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .pic {
     max-width: 600px;
     height: 400px;
